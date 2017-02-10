@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="circle" tilewidth="32" tileheight="32">
+  <image source="../../../SHAPY/res/levels/circle.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="tri" tilewidth="32" tileheight="32">
+  <image source="../../../SHAPY/res/levels/tri.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="square" tilewidth="32" tileheight="32">
+  <image source="../../../SHAPY/res/levels/square.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="pent" tilewidth="32" tileheight="32">
+  <image source="../../../SHAPY/res/levels/pent.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="all" tilewidth="32" tileheight="32">
+  <image source="../../../SHAPY/res/levels/all.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Circles" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XsQ0AMAgDMPr/0xUrU9UJgS3lgGxJBAAdnccAAFR2BAAAAD82fMfp/dKGjgDQzQVBxhQGgCUAAA==
+  </data>
+ </layer>
+ <layer name="Triangles" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YoQ0AAAgEsQ/7D41H4UC0yS1xCQAAH9QyAAAAgMlXAACAOw1yUuHggCUAAA==
+  </data>
+ </layer>
+ <layer name="Squares" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YwQkAAAjEsAP339kFFHxLAl2iCQDwXR0DAAAAAAB2fjsAkwZotDFrgCUAAA==
+  </data>
+ </layer>
+ <layer name="Pentagons" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsQkAAAgEsS/cf2YHsBFLSeCWuAQAbmoZAAAAAAA/+MIAAFMDj56PZ4AlAAA=
+  </data>
+ </layer>
+ <layer name="Danger" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QwQnAMAwEQX/cf8upIWAcspqB+2u1FgAA9O2vD7hMb5veNr1tp3r3j8Y7036mt01vm942vW162/S26W3T2zaxd9oe/2tzrIAlAAA=
+  </data>
+ </layer>
+</map>

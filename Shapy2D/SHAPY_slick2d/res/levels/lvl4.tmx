@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="circle" tilewidth="32" tileheight="32">
+  <image source="circle.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="tri" tilewidth="32" tileheight="32">
+  <image source="tri.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="square" tilewidth="32" tileheight="32">
+  <image source="square.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="pent" tilewidth="32" tileheight="32">
+  <image source="pent.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="all" tilewidth="32" tileheight="32">
+  <image source="../sprites/all.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <layer name="Circles" width="80" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aQQ0AAAgDMfBvGgt7QmiT87DHqoCrOgwAgIx9BQAAAAAAAACwm38Hnw3QI+61ADIAAA==
+  </data>
+ </layer>
+ <layer name="Triangles" width="80" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YyQkAMAwDsJD9h84K/RRySOARjMERAGySjwGAzuwZAAAAAADM5++HW3QeAOC/AsQ+l4AAMgAA
+  </data>
+ </layer>
+ <layer name="Squares" width="80" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VsQkAAAgDQcH9d7a1TKlwB79CUgUAfNdhANxgtwHY/AIAAAAAAAAAiQEEW7MFADIAAA==
+  </data>
+ </layer>
+ <layer name="Pentagons" width="80" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XMQoAIAwEwRT+/82WsTwbETIDeUJgrwrgzgoPAACAd9KtZq8BAOT0FQAwhebhpIOh+QcA4DcbDx0ZrgAyAAA=
+  </data>
+ </layer>
+ <layer name="Danger" width="80" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZMQoDQQwEwUv8/y/7AwcDTrbXVIHyllI9DwAAAAAAbz5/NCec3vn2+/2i1lvrWWq9tZ6l1lvrWWq9tZ6l1lvrWWq9tZ6l1lvrWWq9tZ6l1lvrWWq9tZ7ltl4AAKDh9M/n9vkCxGC7uwAyAAA=
+  </data>
+ </layer>
+</map>

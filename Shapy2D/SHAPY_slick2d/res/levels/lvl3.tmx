@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="23" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="circle" tilewidth="32" tileheight="32">
+  <image source="circle.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="tri" tilewidth="32" tileheight="32">
+  <image source="tri.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="square" tilewidth="32" tileheight="32">
+  <image source="square.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="pent" tilewidth="32" tileheight="32">
+  <image source="pent.png" trans="000000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="all" tilewidth="32" tileheight="32">
+  <image source="all.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Circles" width="50" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UwQkAAAgDMd1/aUfQlygkcBuURgDwSTbBZ92+JwFwm1+HXQUetxHQ+BEAAA==
+  </data>
+ </layer>
+ <layer name="Triangles" width="50" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQ4AIAgDQML/H+0TSHBQ9C7pyNYSAcBNskjnHn5SbWhnX7ztRC/0ksn8WphhAYEe9cf4EQAA
+  </data>
+ </layer>
+ <layer name="Squares" width="50" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UQQoAIAgEQKH//7knFIGKNAOe9+BqBACV1mE6MrNyYZqbW3E//+nev56R6fXv6STMsQE210S8+BEAAA==
+  </data>
+ </layer>
+ <layer name="Pentagons" width="50" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UIQ4AMAgDQMT+/2bkzEIIm5i4S7CYpo0AgLNVHLDpx9+qLXuRW/e/LYUZXYI7CTiVumf4EQAA
+  </data>
+ </layer>
+ <layer name="Danger" width="50" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3X0QoAERCF4XPj/V/ZzZaaTMuucuL/anKBjIxCypUnlLQljHXVy3O2dfHlPGLfbrGuenWWzXHcx1tI6/PO1gH+cKsrt3yAG3DnzjbyZgEANKN/PveoWhDdlPgRAAA=
+  </data>
+ </layer>
+</map>
